@@ -13,7 +13,7 @@ import {
   IdeClient,
   type File,
   ideContext,
-} from '@google/gemini-cli-core';
+} from '@jemini-core';
 import path from 'node:path';
 import {
   CommandContext,

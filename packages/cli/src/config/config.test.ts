@@ -8,11 +8,11 @@ import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
 import * as os from 'os';
 import * as fs from 'fs';
 import * as path from 'path';
-import { ShellTool, EditTool, WriteFileTool } from '@google/gemini-cli-core';
+import { ShellTool, EditTool, WriteFileTool } from '@jemini-core';
 import { loadCliConfig, parseArguments } from './config.js';
 import { Settings } from './settings.js';
 import { Extension } from './extension.js';
-import * as ServerConfig from '@google/gemini-cli-core';
+import * as ServerConfig from '@jemini-core';
 
 vi.mock('os', async (importOriginal) => {
   const actualOs = await importOriginal<typeof os>();
@@ -32,9 +32,9 @@ vi.mock('read-package-up', () => ({
   ),
 }));
 
-vi.mock('@google/gemini-cli-core', async () => {
+vi.mock('@jemini-core', async () => {
   const actualServer = await vi.importActual<typeof ServerConfig>(
-    '@google/gemini-cli-core',
+    '@jemini-core',
   );
   return {
     ...actualServer,

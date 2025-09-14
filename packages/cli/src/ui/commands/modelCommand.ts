@@ -10,7 +10,7 @@ import {
   DEFAULT_GEMINI_MODEL,
   DEFAULT_GEMINI_FLASH_MODEL,
   DEFAULT_GEMINI_FLASH_LITE_MODEL,
-} from '@google/gemini-cli-core';
+} from '@jemini-core';
 
 export const modelCommand: SlashCommand = {
   name: 'model',

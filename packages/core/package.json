@@ -1,5 +1,5 @@
 {
-  "name": "jemini-core",
+  "name": "@jemini/core",
   "version": "0.1.18",
   "description": "Jemini CLI Core",
   "repository": {

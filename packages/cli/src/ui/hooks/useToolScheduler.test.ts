@@ -27,7 +27,7 @@ import {
   BaseTool,
   AnyDeclarativeTool,
   AnyToolInvocation,
-} from '@google/gemini-cli-core';
+} from '@jemini-core';
 import {
   HistoryItemWithoutId,
   ToolCallStatus,
@@ -35,8 +35,8 @@ import {
 } from '../types.js';
 
 // Mocks
-vi.mock('@google/gemini-cli-core', async () => {
-  const actual = await vi.importActual('@google/gemini-cli-core');
+vi.mock('@jemini-core', async () => {
+  const actual = await vi.importActual('@jemini-core');
   return {
     ...actual,
     ToolRegistry: vi.fn(),
