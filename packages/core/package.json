@@ -1,10 +1,10 @@
 {
-  "name": "@google/gemini-cli-core",
+  "name": "jemini-core",
   "version": "0.1.18",
-  "description": "Gemini CLI Core",
+  "description": "Jemini CLI Core",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/google-gemini/gemini-cli.git"
+    "url": "git+https://github.com/0010capacity/jemini-cli.git"
   },
   "type": "module",
   "main": "dist/index.js",

@@ -1,15 +1,15 @@
 {
-  "name": "@google/gemini-cli",
+  "name": "jemini",
   "version": "0.1.18",
-  "description": "Gemini CLI",
+  "description": "Jemini CLI",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/google-gemini/gemini-cli.git"
+    "url": "git+https://github.com/0010capacity/jemini-cli.git"
   },
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "gemini": "dist/index.js"
+    "jemini": "dist/index.js"
   },
   "scripts": {
     "build": "node ../../scripts/build_package.js",

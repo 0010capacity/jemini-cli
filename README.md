@@ -1,18 +1,18 @@
-# Gemini CLI
+# Jemini CLI
 
-[![Gemini CLI CI](https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/google-gemini/gemini-cli/actions/workflows/ci.yml)
+[![Jemini CLI CI](https://github.com/0010capacity/jemini-cli/actions/workflows/ci.yml/badge.svg)](https://github.com/0010capacity/jemini-cli/actions/workflows/ci.yml)
 
-![Gemini CLI Screenshot](./docs/assets/gemini-screenshot.png)
+![Jemini CLI Screenshot](./docs/assets/gemini-screenshot.png)
 
-This repository contains the Gemini CLI, a command-line AI workflow tool that connects to your
+This repository contains the Jemini CLI, a command-line AI workflow tool that connects to your
 tools, understands your code and accelerates your workflows.
 
-With the Gemini CLI you can:
+With the Jemini CLI you can:
 
 - Query and edit large codebases in and beyond Gemini's 1M token context window.
 - Generate new apps from PDFs or sketches, using Gemini's multimodal capabilities.
 - Automate operational tasks, like querying pull requests or handling complex rebases.
-- Integrate with GitHub: Use the [Gemini CLI GitHub Action](https://github.com/google-github-actions/run-gemini-cli) for automated PR reviews, issue triage, and on-demand AI assistance directly in your repositories.
+- Integrate with GitHub: Use the [Jemini CLI GitHub Action](https://github.com/google-github-actions/run-jemini-cli) for automated PR reviews, issue triage, and on-demand AI assistance directly in your repositories.
 - Use tools and MCP servers to connect new capabilities, including [media generation with Imagen,
   Veo or Lyria](https://github.com/GoogleCloudPlatform/vertex-ai-creative-studio/tree/main/experiments/mcp-genmedia)
 - Ground your queries with the [Google Search](https://ai.google.dev/gemini-api/docs/grounding)
@@ -20,7 +20,7 @@ With the Gemini CLI you can:
 
 ## Quickstart
 
-You have two options to install Gemini CLI.
+You have two options to install Jemini CLI.
 
 ### With Node
 
@@ -28,19 +28,19 @@ You have two options to install Gemini CLI.
 2. **Run the CLI:** Execute the following command in your terminal:
 
    ```bash
-   npx https://github.com/google-gemini/gemini-cli
+   npx https://github.com/0010capacity/jemini-cli
    ```
 
    Or install it with:
 
    ```bash
-   npm install -g @google/gemini-cli
+   npm install -g jemini
    ```
 
    Then, run the CLI from anywhere:
 
    ```bash
-   gemini
+   jemini
    ```
 
 ### With Homebrew
@@ -49,13 +49,13 @@ You have two options to install Gemini CLI.
 2. **Install the CLI:** Execute the following command in your terminal:
 
    ```bash
-   brew install gemini-cli
+   brew install jemini-cli
    ```
 
    Then, run the CLI from anywhere:
 
    ```bash
-   gemini
+   jemini
    ```
 
 ### Common Configuration steps
@@ -109,8 +109,8 @@ gemini
 Or work with an existing project:
 
 ```sh
-git clone https://github.com/google-gemini/gemini-cli
-cd gemini-cli
+git clone https://github.com/0010capacity/jemini-cli
+cd jemini-cli
 gemini
 > Give me a summary of all of the changes that went in yesterday
 ```
@@ -131,11 +131,11 @@ having issues.
 
 ## GitHub Integration
 
-Integrate Gemini CLI directly into your GitHub workflows with the [**Gemini CLI GitHub Action**](https://github.com/google-github-actions/run-gemini-cli). Key features include:
+Integrate Gemini CLI directly into your GitHub workflows with the [**Gemini CLI GitHub Action**](https://github.com/google-github-actions/run-jemini-cli). Key features include:
 
 - **Pull Request Reviews**: Automatically review pull requests when they're opened.
 - **Issue Triage**: Automatically triage and label GitHub issues.
-- **On-demand Collaboration**: Mention `@gemini-cli` in issues and pull requests for assistance and task delegation.
+- **On-demand Collaboration**: Mention `@jemini-cli` in issues and pull requests for assistance and task delegation.
 - **Custom Workflows**: Set up your own scheduled tasks and event-driven automations.
 
 ## Popular tasks
@@ -222,4 +222,4 @@ For details on the terms of service and privacy notice applicable to your use of
 
 ## Security Disclosures
 
-Please see our [security disclosure process](SECURITY.md). All [security advisories](https://github.com/google-gemini/gemini-cli/security/advisories) are managed on Github.
+Please see our [security disclosure process](SECURITY.md). All [security advisories](https://github.com/0010capacity/jemini-cli/security/advisories) are managed on Github.
